@@ -1,16 +1,23 @@
 package cuentas;
-
+/**
+ * 
+ * @author David
+ *main class
+ */
 public class Main {
-
+/**
+ * @param args gets param. 
+ * As per the exercise.
+ */
     public static void main(String[] args) {
-        operativa_cuenta();
+        operativa_cuenta(0.0f);
     }
 
 	/**
-	 * @author David
-	 * @version 1.0
+	 * 
+	 * @param cantidad recibe un valor float cantidad.  
 	 */
-	private static void operativa_cuenta() {
+	private static void operativa_cuenta(float cantidad) {
 		CCuenta cuenta1;
         double saldoActual;
 
