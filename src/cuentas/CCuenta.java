@@ -15,7 +15,7 @@ public class CCuenta {
     private String nombre;
     private String cuenta;
     private double saldo;
-    private double tipoInterés;
+    private double tipoInteres;
 /**
  * public Ccuenta () es el contructor por defecto de la clase. 
  */
@@ -63,8 +63,8 @@ public class CCuenta {
  * 
  * @return devuelve el tipo de interes
  */
-	private double getTipoInterés() {
-		return tipoInterés;
+	private double getTipoInteres() {
+		return tipoInteres;
 	}
 /**
  * @param nuevo nombre y lo cambia
@@ -90,8 +90,8 @@ public class CCuenta {
  * 
  * @param tipoInterés recibe el tipo de interes y lo establece en el objeto. 
  */
-	private void setTipoInterés(double tipoInterés) {
-		this.tipoInterés = tipoInterés;
+	private void setTipoInteres(double tipoInteres) {
+		this.tipoInteres = tipoInteres;
 	}
 /**
  * 
