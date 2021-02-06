@@ -97,7 +97,7 @@ public class CCuenta {
 	}
 /**
  * 
- * @param tipoInteres recibe el tipo de interes y lo establece en el objeto. 
+ * @param tipoInteres recibe el tipo de interes y lo establece
  *
  */
 	private void setTipoInteres(double tipoInteres) {
