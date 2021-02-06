@@ -10,11 +10,20 @@ package cuentas;
 public class CCuenta {
 
 /**
- * Tenemos 4 atributos, el nombre de la cuenta, el numero de cuenta, el saldo y el tipo de interes
+ *el nombre de la cuenta
  */
     private String nombre;
+    /**
+     * el numero de la cuenta
+     */
     private String cuenta;
+    /**
+     * el saldo de la cuenta
+     */
     private double saldo;
+    /**
+     * el tipo de interes
+     */
     private double tipoInteres;
 /**
  * public Ccuenta () es el contructor por defecto de la clase. 
@@ -67,8 +76,7 @@ public class CCuenta {
 		return tipoInteres;
 	}
 /**
- * 
- * @param nuevo nombre y lo cambia
+ * @param nombre nuevo nombre y lo cambia
  */
 	private void setNombre(String nombre) {
 		this.nombre = nombre;
@@ -89,7 +97,8 @@ public class CCuenta {
 	}
 /**
  * 
- * @param tipoInterés recibe el tipo de interes y lo establece en el objeto. 
+ * @param tipoInteres recibe el tipo de interes y lo establece en el objeto. 
+ *
  */
 	private void setTipoInteres(double tipoInteres) {
 		this.tipoInteres = tipoInteres;
