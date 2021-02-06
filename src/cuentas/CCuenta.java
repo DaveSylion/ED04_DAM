@@ -67,6 +67,7 @@ public class CCuenta {
 		return tipoInteres;
 	}
 /**
+ * 
  * @param nuevo nombre y lo cambia
  */
 	private void setNombre(String nombre) {
@@ -94,7 +95,7 @@ public class CCuenta {
 		this.tipoInteres = tipoInteres;
 	}
 /**
- * 
+ *
  * @return devuelve el saldo actual de la cuenta
  */
 	public double estado()
